@@ -1,5 +1,5 @@
 import { Router, json } from 'express'
-import { alunoDelete, alunoIndex, alunoPesq, insereAluno, alunoUpdate } from './Controllers/AlunoController.js'
+import { alunoDelete, alunoIndex, alunoPesq, insereAluno, alunoUpdate } from './Controllers/AlunoControllerRefatorado.js'
 import { livroDelete, livroIndex, livroPesq, livroUpdate, insereLivro } from './Controllers/LivroController.js'
 //import { locacaoIndex, locacaoDelete, insereLocacao, locacaoUpdate, locacaoPesq } from './Controllers/LocacaoController.js'
 const router = Router()
